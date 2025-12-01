@@ -114,7 +114,7 @@ export default function TicTacToe() {
         className={cn(
           "w-20 h-20 rounded-lg text-4xl font-bold",
           isWinningCell && "bg-gradient-to-r from-cyan-400 to-magenta-400 animate-pulse",
-          value && "text-white"
+          "text-white"
         )}
         onClick={() => handleClick(idx)}
       >
